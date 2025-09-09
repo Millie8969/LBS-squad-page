@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>sqaudset lbs</header>
+    <select name="klasgenoten" id="klasgenoot selecteren">
+        <option value'''>kies een klasgenoot</option>
+        <option value="klasgenoot a">klasgenoot a</option>
+    </select>
+    <div class="afbeelding klasgenoot" id="afbeelding klasgenoot"
+    <img id="afbeelding klasgenoot" scr=".." alt="mugshot klasgenoot"
+    <div class=" tekst" id=" tekst onderaan">klasgenoot naam </div>
+ 
+    <button>-></button>
+    <footer>LBS</footer>
+</body>
+</html>
