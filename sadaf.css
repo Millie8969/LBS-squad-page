@@ -1,0 +1,16 @@
+header {
+    background-color: beige;
+    color: blueviolet;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.links {
+    font-size: 18px;
+}
+
+.rechts {
+    font-size:16px;
+}
