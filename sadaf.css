@@ -1,6 +1,6 @@
 header {
-    background-color: beige;
-    color: blueviolet;
+    background-color: rgba(253, 253, 251, 0.973);
+    color: rgb(11, 76, 150);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -13,4 +13,82 @@ header {
 
 .rechts {
     font-size:16px;
+}
+
+body {
+    text-align: center;
+    margin-top: 1px;
+    font-family: arial, sans-serif;
+    background-color: rgba(72, 126, 144, 0.333);
+}
+
+select{
+    padding: 20px;
+    font-size: 16px;
+    border: 6px solid rgb(27, 161, 176);
+    color: #333;
+    margin-top:50px ;
+}
+
+.klasgenoten {
+    justify-content: flex;
+    display: flex;
+    gap: 2em;
+    overflow: auto;
+    
+}
+
+.afbeelding.klasgenoot{
+    text-align: center;
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    
+    
+    
+    
+
+}
+
+.ruimtes {
+    justify-content: flex;
+    display: flex;
+    gap: 2em;
+    overflow: auto;
+    
+}
+
+
+.tekst{
+    margin-top: 8px;
+    font-weight: bold;
+
+}
+
+footer {
+    background-color: rgba(253, 253, 251, 0.973);
+    color: rgb(11, 76, 150);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 70px;
+
+}
+
+
+body { 
+    background: pink;
+    
+    @media (width > 600px) {
+        background: #bada55;
+    }
+
+
+    @media (width > 800px) {
+        background: purple;
+    }
+        
 }
