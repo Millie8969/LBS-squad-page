@@ -26,23 +26,55 @@ nav{
      text-align: center;
 }
 
-.Squad{
-    display: flex;
-    text-align: center;
-    width: auto;
-    justify-content: center;
-    gap: 2rem;
+  .Squad {
+  display: grid;
+  grid-auto-flow: column;      
+  grid-auto-columns: 280px;     
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem;
+  padding-bottom: 20px;
 }
 
-.Squad .Squad-lid{
-    background-color: darkgray;
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    position: relative;
+.Squad .Squad-lid {
+  background-color: darkgray; 
+  border-radius: 12px;
+  width: 280px;
+  height: 350px;
+  padding: 20px;
+  gap: 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  overflow: hidden; 
+  scroll-snap-align:center;
 }
+
+a{ 
+  color: white;
+}
+
+.dropdown-wrapper {
+    display: flex;           
+    justify-content: center; 
+    margin-bottom: 30px; 
+}
+#sortSquad {
+    padding: 15px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;        
+    text-align: center;      
+    transition: all 0.2s ease;
+}
+
 .Squad .Squad-lid h3{
     font-size: 26px;
     margin-top: 70px;
@@ -53,3 +85,123 @@ nav{
     margin: 12px 0;
 
 }
+.Squad .Squad-lid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  border-radius: 12px;
+}
+
+.Squad .Squad-lid * {
+  position: relative; 
+}
+.lid1 {
+  background: url("assets/Squad1J-Luka.JPG") center/cover no-repeat;
+}
+
+.lid2 {
+  background: url("assets/Squad1J-Bronx-1.JPG") center/cover no-repeat;
+}
+.lid3 {
+  background: url("assets/Squad1J-Sadaf.JPG") center/cover no-repeat;
+}
+
+.lid4 {
+  background: url("assets/Squad1J-Julian.JPG") center/cover no-repeat;
+}
+.lid5 {
+  background: url("assets/Squad1J-Kurollos.JPG") center/cover no-repeat;
+}
+
+.lid6 {
+  background: url("assets/Squad1J-Maarten.JPG") center/cover no-repeat;
+}
+.lid7 {
+  background: url("assets/Squad1J-Jadon.JPG") center/cover no-repeat;
+}
+
+.lid8 {
+  background: url("assets/Squad1J-Ayoub.JPG") center/cover no-repeat;
+}
+.lid9 {
+  background: url("assets/Squad1J-Anass.JPG") center/cover no-repeat;
+}
+
+.lid10 {
+  background: url("assets/Squad1J-Mathijs.JPG") center/cover no-repeat;
+}
+.lid11 {
+  background: url("assets/Squad1J-Meraichio.JPG") center/cover no-repeat;
+}
+
+.lid12 {
+  background: url("assets/Squad1J-Lynn.JPG") center/cover no-repeat;
+}
+.lid13 {
+  background: url("assets/Squad1J-Yassine.JPG") center/cover no-repeat;
+}
+
+.lid14 {
+  background: url("assets/Squad1J-Jasin-1.JPG") center/cover no-repeat;
+}
+.lid15 {
+  background: url("assets/Squad1J-Sieuwke.JPG") center/cover no-repeat;
+}
+
+.lid16 {
+  background: url("assets/Squad1J-Kevin.JPG") center/cover no-repeat;
+}
+.lid17 {
+  background: url("assets/Squad1J-Tom.JPG") center/cover no-repeat;
+}
+
+.lid18 {
+  background: url("assets/Squad1J-Iman.JPG") center/cover no-repeat;
+}
+.lid19 {
+  background: url("assets/Squad1J-Luc.JPG") center/cover no-repeat;
+}
+
+.lid20 {
+  background: url("assets/Squad1J-Ké.JPG") center/cover no-repeat;
+}
+.lid21 {
+  background: url("assets/Squad1J-Heba.JPG") center/cover no-repeat;
+}
+.lid22 {
+  background: url("assets/Squad1J-Mete.jpeg") center/cover no-repeat;
+}
+
+.lid23 {
+  background: url("assets/Squad1J-Jamil.JPG") center/cover no-repeat;
+}
+.lid24 {
+  background: url("assets/Squad1J-Ahlam.JPG") center/cover no-repeat;
+}
+
+.lid25 {
+  background: url("assets/Squad1J-Chama.JPG") center/cover no-repeat;
+}
+.lid26 {
+  background: url("assets/Squad1J-Jamie.JPG") center/cover no-repeat;
+}
+
+.aanbevolen-plekken {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);   
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 600px; 
+}
+
+.aanbevolen-plekken img {
+  width: 100%;
+  aspect-ratio: 1/1; 
+  object-fit: cover;
+  border-radius: 12px; 
+  
+}
+
