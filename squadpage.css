@@ -48,6 +48,34 @@ a{
     justify-content: center; 
     margin-bottom: 30px;  
 }
+ .Squad {
+  display: grid;
+  grid-auto-flow: column;      
+  grid-auto-columns: 280px;     
+  gap: 2rem;
+  scrollbar-color: transparent transparent;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem;
+  padding-bottom: 20px;
+}
+
+.Squad .Squad-lid {
+  background-color: rgb(255, 255, 255); 
+  border-radius: 12px;
+  width: 280px;
+  height: 350px;
+  padding: 20px;
+  gap: 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  overflow: hidden; 
+  scroll-snap-align:center;
+}
 #sortSquad {
     padding: 15px 12px;
     font-size: 16px;
@@ -61,4 +89,115 @@ a{
      outline: none !important;
     border: 1px solid red;
     box-shadow: 0 0 30px #ff0000;
+}
+.Squad .Squad-lid h3{
+    font-size: 26px;
+    margin-top: 70px;
+}
+.Squad .Squad-lid p.role{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+
+}
+.Squad .Squad-lid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  border-radius: 12px;
+}
+
+.Squad .Squad-lid * {
+  position: relative; 
+}
+.lid1 {
+  background: url("assets/Squad1J-Luka.JPG") center/cover no-repeat;
+}
+
+.lid2 {
+  background: url("assets/Squad1J-Bronx-1.JPG") center/cover no-repeat;
+}
+.lid3 {
+  background: url("assets/Squad1J-Sadaf.JPG") center/cover no-repeat;
+}
+
+.lid4 {
+  background: url("assets/Squad1J-Julian.JPG") center/cover no-repeat;
+}
+.lid5 {
+  background: url("assets/Squad1J-Kurollos.JPG") center/cover no-repeat;
+}
+
+.lid6 {
+  background: url("assets/Squad1J-Maarten.JPG") center/cover no-repeat;
+}
+.lid7 {
+  background: url("assets/Squad1J-Jadon.JPG") center/cover no-repeat;
+}
+
+.lid8 {
+  background: url("assets/Squad1J-Ayoub.JPG") center/cover no-repeat;
+}
+.lid9 {
+  background: url("assets/Squad1J-Anass.JPG") center/cover no-repeat;
+}
+
+.lid10 {
+  background: url("assets/Squad1J-Mathijs.JPG") center/cover no-repeat;
+}
+.lid11 {
+  background: url("assets/Squad1J-Meraichio.JPG") center/cover no-repeat;
+}
+
+.lid12 {
+  background: url("assets/Squad1J-Lynn.JPG") center/cover no-repeat;
+}
+.lid13 {
+  background: url("assets/Squad1J-Yassine.JPG") center/cover no-repeat;
+}
+
+.lid14 {
+  background: url("assets/Squad1J-Jasin-1.JPG") center/cover no-repeat;
+}
+.lid15 {
+  background: url("assets/Squad1J-Sieuwke.JPG") center/cover no-repeat;
+}
+
+.lid16 {
+  background: url("assets/Squad1J-Kevin.JPG") center/cover no-repeat;
+}
+.lid17 {
+  background: url("assets/Squad1J-Tom.JPG") center/cover no-repeat;
+}
+
+.lid18 {
+  background: url("assets/Squad1J-Iman.JPG") center/cover no-repeat;
+}
+.lid19 {
+  background: url("assets/Squad1J-Luc.JPG") center/cover no-repeat;
+}
+
+.lid20 {
+  background: url("assets/Squad1J-Ké.JPG") center/cover no-repeat;
+}
+.lid21 {
+  background: url("assets/Squad1J-Heba.JPG") center/cover no-repeat;
+}
+.lid22 {
+  background: url("assets/Squad1J-Mete.jpeg") center/cover no-repeat;
+}
+
+.lid23 {
+  background: url("assets/Squad1J-Jamil.JPG") center/cover no-repeat;
+}
+.lid24 {
+  background: url("assets/Squad1J-Ahlam.JPG") center/cover no-repeat;
+}
+
+.lid25 {
+  background: url("assets/Squad1J-Chama.JPG") center/cover no-repeat;
+}
+.lid26 {
+  background: url("assets/Squad1J-Jamie.JPG") center/cover no-repeat;
 }
