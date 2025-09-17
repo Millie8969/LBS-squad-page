@@ -1,10 +1,25 @@
 
 # Squad page
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
+Welkom bij SquadSet, een site van Luka, Bronx en Sadaf! Op deze site vind je:
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+-de mugshots van alle leden van Squad 1J;
+-hun respectievelijke visitekaartjes.
 
-## Licentie
+Neem gerust een kijkje!
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+## Team LBS stelt zich voor...
+
+- Luka, 25 jaar
+
+![Luka](/assets/Squad1J-Luka.JPG)
+
+
+- Bronx, 19 jaar
+
+![Bronx](/assets/Squad1J-Bronx-1.JPG)
+
+
+- Sadaf, 30 jaar
+
+![Sadaf](/assets/Squad1J-Sadaf.JPG)
