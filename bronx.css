@@ -5,7 +5,7 @@
 }
 
 body{
-    background: lightgrey;
+    background: #003061;
 }
 
 nav{
@@ -24,6 +24,7 @@ nav{
      font-size: 52px;
      margin-bottom: 60px;
      text-align: center;
+     color: white;
 }
 
   .Squad {
@@ -31,6 +32,7 @@ nav{
   grid-auto-flow: column;      
   grid-auto-columns: 280px;     
   gap: 2rem;
+  scrollbar-color: transparent transparent;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 1rem;
@@ -38,7 +40,7 @@ nav{
 }
 
 .Squad .Squad-lid {
-  background-color: darkgray; 
+  background-color: rgb(255, 255, 255); 
   border-radius: 12px;
   width: 280px;
   height: 350px;
@@ -61,7 +63,7 @@ a{
 .dropdown-wrapper {
     display: flex;           
     justify-content: center; 
-    margin-bottom: 30px; 
+    margin-bottom: 30px;  
 }
 #sortSquad {
     padding: 15px 12px;
@@ -73,6 +75,9 @@ a{
     min-width: 150px;        
     text-align: center;      
     transition: all 0.2s ease;
+     outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 30px #ff0000;
 }
 
 .Squad .Squad-lid h3{
@@ -188,20 +193,31 @@ a{
 }
 
 .aanbevolen-plekken {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(2, 1fr);   
-  gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+ display: grid;
+  grid-template-columns:  1fr; 
+  grid-template-rows: repeat(1, 6);   
+  margin: 2em flex;
   height: 600px; 
+  gap: 20px
 }
 
 .aanbevolen-plekken img {
   width: 100%;
-  aspect-ratio: 1/1; 
+  height: auto;
+  aspect-ratio: 1;
   object-fit: cover;
   border-radius: 12px; 
   
 }
 
+@media ( width > 500px){
+.aanbevolen-plekken {
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);   
+  gap: 20px;  
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 600px; 
+}
+}
