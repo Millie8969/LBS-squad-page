@@ -1,9 +1,9 @@
 
 # Squad page
 
-Welkom bij SquadSet, een site van Luka, Bronx en Sadaf! Op deze site vind je:
+Welkom bij **SquadSet**, een site van Luka, Bronx en Sadaf! Op deze site vind je:
 
--de mugshots van alle leden van Squad 1J;
+-de mugshots van alle leden van Squad 1J;  
 -hun respectievelijke visitekaartjes.
 
 Neem gerust een kijkje!
