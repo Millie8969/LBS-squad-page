@@ -28,6 +28,7 @@ header {
     background: aliceblue;
 
     h1{
+        align-content: center;
         font-family: 'Brush Script MT';
         padding-left: 2%;
     }
@@ -90,6 +91,10 @@ a{
     border: 1px solid red;
     box-shadow: 0 0 30px #ff0000;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .Squad .Squad-lid h3{
     font-size: 26px;
     margin-top: 70px;
@@ -201,3 +206,36 @@ a{
 .lid26 {
   background: url("assets/Squad1J-Jamie.JPG") center/cover no-repeat;
 }
+<<<<<<< Updated upstream
+=======
+
+.aanbevolen-plekken {
+ display: grid;
+  grid-template-columns:  1fr; 
+  grid-template-rows: repeat(1, 6);   
+  margin: 2em flex;
+  height: 600px; 
+  gap: 20px
+}
+
+.aanbevolen-plekken img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 12px; 
+  
+}
+
+@media ( width > 500px){
+.aanbevolen-plekken {
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);   
+  gap: 20px;  
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 600px; 
+}
+}
+>>>>>>> Stashed changes
