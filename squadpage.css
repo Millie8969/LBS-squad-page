@@ -45,7 +45,6 @@ a{
   color: rgb(248, 61, 61);
 }
 
-
 .dropdown-wrapper {
     display: flex;           
     justify-content: center; 
@@ -240,17 +239,20 @@ a{
 }
 }
 
-#plekjes {
-  /* background-color: #03233d; */
-  /* background-color: red; */
-}
-
-footer{
+footer {
     color: white;
     background: rgb(0, 0, 0);
    display: flex;
    justify-content: center;
-   font-size: 125%;
+   font-size: 150%;
    margin-top: 45px;
+   border: 5px solid black;
+    border-bottom: 2.5px;
+    border-radius: 10px;
+    
 }
 
+footer a{
+  color: white;
+  text-decoration: none;
+}
