@@ -23,7 +23,7 @@ header {
     width: 100%;
     border: 5px solid black;
     border-bottom: 2.5px;
-    border-radius: 100px;
+    border-radius: 10px;
     justify-content: space-between;
     background: aliceblue;
     border: 1px solid rgb(0, 0, 0);
@@ -212,8 +212,9 @@ a{
   grid-template-columns:  1fr; 
   grid-template-rows: repeat(1, 6);   
   margin: 1em flex;
-  height: 380px; 
   gap: 20px;
+  background-color: #03233d;
+  padding: 40px;
 }
 
 .aanbevolen-plekken img {
@@ -221,7 +222,7 @@ a{
   height: auto;
   aspect-ratio: 0.75;
   object-fit: cover;
-  border-radius: 12px; 
+  border-radius: 24px; 
 
   
 }
@@ -232,10 +233,24 @@ a{
   grid-template-columns: repeat(3, 5fr); 
   grid-template-rows: repeat(3, 5fr);   
   gap: 20px;  
-  max-width: 1000px;
   margin: 0 auto;
-  
+  scrollbar-color: transparent transparent;
+  overflow-x: auto;
+  background-color: #03233d;
 }
 }
 
+#plekjes {
+  /* background-color: #03233d; */
+  /* background-color: red; */
+}
+
+footer{
+    color: white;
+    background: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   font-size: 125%;
+   margin-top: 45px;
+}
 
