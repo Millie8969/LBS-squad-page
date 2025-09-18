@@ -23,7 +23,7 @@ header {
     width: 100%;
     border: 5px solid black;
     border-bottom: 2.5px;
-    border-radius: 10px;
+    border-radius: 100px;
     justify-content: space-between;
     background: aliceblue;
 
@@ -208,17 +208,18 @@ a{
  display: grid;
   grid-template-columns:  1fr; 
   grid-template-rows: repeat(1, 6);   
-  margin: 2em flex;
-  height: 600px; 
+  margin: 1em flex;
+  height: 380px; 
   gap: 20px
 }
 
 .aanbevolen-plekken img {
   width: 100%;
   height: auto;
-  aspect-ratio: 1;
+  aspect-ratio: 0.75;
   object-fit: cover;
   border-radius: 12px; 
+
   
 }
 
