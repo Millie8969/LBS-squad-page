@@ -26,6 +26,8 @@ header {
     border-radius: 100px;
     justify-content: space-between;
     background: aliceblue;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px #000000;
 
     h1{
         align-content: center;
@@ -90,8 +92,8 @@ a{
     text-align: center;      
     transition: all 0.2s ease;
      outline: none !important;
-    border: 1px solid red;
-    box-shadow: 0 0 30px #ff0000;
+    border: 1px solid rgb(232, 32, 32);
+    box-shadow: 0 0 30px #ed1d1d;
 }
 .Squad .Squad-lid h3{
     font-size: 26px;
@@ -227,11 +229,13 @@ a{
 @media ( width > 500px){
 .aanbevolen-plekken {
  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(3, 1fr);   
+  grid-template-columns: repeat(3, 5fr); 
+  grid-template-rows: repeat(3, 5fr);   
   gap: 20px;  
   max-width: 1000px;
   margin: 0 auto;
-  height: 600px; 
+  
 }
 }
+
+
